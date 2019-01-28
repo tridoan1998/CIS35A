@@ -1,43 +1,34 @@
 
-import java.util.Scanner;
-public class Practice {
 
-	
-	//funtion to return the sum of two numbers 
-	public static int Sum (int i1, int i2)
-	{
-		int result = 0;
-		for (; i1 <= i2; i1++)
-		{
-			result += i1;
-		}
-		return result;
-	}
+//A prime number is a whole number greater than 1, which is only divisible by 1 and itself. 
+//First few prime numbers are : 2 3 5 7 11 13 17 19 23 …..
+
+
+import java.util.*;
+public class Practice {
 	
 	// main function
 	public static void main(String[] args) 
-	{
-		Scanner input = new Scanner(System.in);
-		System.out.printf("Enter: ");
-		int i1 = input.nextInt();
-		System.out.printf("Enter: ");
-		int i2 = input.nextInt();
-		System.out.printf("hello" + "this is the result: " + Sum(i1, i2));
-		input.close();
+	{	
+		System.out.println(Max(3,0));
 	}
 	
-	public void Draw()
+	public static int Max(int a, int b)
 	{
-		//System.out.println("a\t" + "a^2\t" + "a^3\n");
-		System.out.printf("a\t" , "a^2\t" , "a^3\n");
-
-		for (int i = 0; i < 5; i++)
+		int max = 0;
+		if(a > b)
 		{
-			for(int j = 0; j < 3; j++)
-			{
-				
-			}
-			
+			max = a;
 		}
+		else if(a == b)
+		{
+			max = a;
+		}
+		else 
+		{
+			max = b;
+		}
+		return max;
 	}
 }
+

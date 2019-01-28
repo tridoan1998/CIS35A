@@ -21,7 +21,7 @@ Please create a zip file and submit a single attachment for part 1.
 //this class holds the personal data: name, address, age and phone number.
 
 //Scanner utility for input from user
-import java.util.Scanner; 
+import java.util.*;
 
 public class Personal_Information {
 	

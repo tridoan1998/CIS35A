@@ -7,7 +7,7 @@ Date Submitted: 01/20/2019
 
 Description: User enter a number and the program will calculate and display the square root of that number.
  */
-import java.util.Scanner;
+import java.util.*;
 
 public class Loan 
 {
